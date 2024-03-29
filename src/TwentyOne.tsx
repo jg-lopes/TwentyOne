@@ -35,7 +35,6 @@ function TwentyOne() {
 
   return (
     <div>
-      <p>You clicked {count} times</p>
       <button onClick={handleClick}>+1</button>
       <button onClick={reset}>Reset</button>
       <p>Hand: {count} - Status: {result}</p>
